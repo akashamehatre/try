@@ -31,4 +31,5 @@ function autoSlide() {
     updateSlides();
 }
 
-setInterval
+setInterval(autoSlide, 2000); // 6 seconds per slide
+
